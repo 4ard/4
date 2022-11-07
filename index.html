@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+     <title>Homework</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta charset="utf-8">
+     <meta name="author" content="Рассоха С.И. s0169591">
+
+     <style>
+        td, th {
+            padding: 3px;
+            border: 1px solid black;
+        }
+        li {
+        padding: 3px;
+        }
+        header, .content, #footer {
+            background-color: #333;
+        }
+        body{
+          color: #333;
+        }
+        a{
+          color: #fc0;
+          text-decoration:none;
+        }
+        p{
+          color: #fc0;
+        }
+        h1{
+          color: #fc0;
+        }
+        h2{
+          color: #fc0;
+        }
+        h3{
+          color: #fc0;
+        }
+        h4{
+          color: #fc0;
+        }
+        h5{
+          color: #fc0;
+        }
+        h6{
+          color: #fc0;
+        }
+        li{
+          color:#fc0;
+        }
+        span{
+          color:#fc0;
+        }
+        td{
+          color: #fc0;
+        }
+        th{
+          color: #fc0;
+        }      
+        label{
+          color: #fc0;
+        }  
+
+
+
+     </style>
+
+ </head>
+ <body>
+ <header class="header m-2" id="top">
+     <div class="container">
+         <div id="headcont">
+            <img id="logo" src="https://e7.pngegg.com/pngimages/91/455/png-clipart-computer-icons-businessperson-company-man-icon-company-people.png" alt="logo" width="100px" height="100px">
+            <span id="headtext">
+                Homework
+            </span>
+         </div>
+     </div>
+ </header>
+
+ <div class="container">
+ <div class="content d-flex flex-column m-2 p-2">
+     <h1>Меню</h1>
+     <nav id="nav">
+         <ul class="nav flex-md-row flex-column ">
+         <li>
+         <a href="#q1">Задания</a>
+         </li>
+        <li>
+         <a href="#table">Table</a>
+         </li>
+        <li>
+         <a href="#form">Form</a>
+        </li>
+        <li>
+         <a href="#footer">Footer</a>
+        </li>
+         </ul>
+     </nav>
+     <div class="link">
+        <ol>
+  <li> <a href="http://example.com">Ссылка на главную страницу сайта example.com</a> </li>
+  <li> <a href="https://example.com">Ссылка на главную страницу сайта example.com с протоколом https</a> </li>
+  <li> <a href="ftp://ftp.example.com/file.txt"> FTP без авторизации </a> </li>
+  <li> <a href="ftp://login:password@ftp.example.com/file.txt"> FTP с авторизацией </a> </li>
+  <li> <a href="http://example.com/page#element_id"> Ссылка на фрагмент страницы некоторого сайта(в данном случае на фрагмент #element на странице page) </a></li>
+  <li> <a href="#frag">Ссылка ведущая на определенный фрагмент сайта </a> </li>
+  <li> <a href="http://example.com?productid=1&utm_source=opera">Ссылка c двумя параметрами в URL(в данном случае 1 параметр перенаправит пользователя на определенный продукт, а 2 параметр указывает на источник, который привел пользователя на сайт) </a> </li>
+
+
+  <p>список ссылок основной навигации сайта с подписями title</p>
+  </li>
+  <li> <a title="Это пустая ссылка">Ссылка без href </a> </li>
+  <li> <a href=" ">Ссылка с пустым href </a> </li>
+  <li> <a href="https://example.com" rel="nofollow">По этой ссылке не будет следовать Яндекс</a> </li>
+  <li><!--<noindex>--> <a href="https://example.com">Эта ссылка не будет индексироваться Яндексом </a> <!--</noindex>--> </li>
+  <li><p>Привет, <a href="https://example.com">это</a> контекстная ссылка </p> </li>
+  
+
+  <li>
+    <!--Первая карта-->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmfMc1nHCc1xpbxsXG7snGWPP4cgoWfCE0BzGV8U--&s" width="211" height="30" alt="Навигация по сайту" usemap="#Navigation">
+  <p><map id="Navigation" name="Navigation">
+    <area shape="rect" coords="0,0,211,20" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz0EnuOZg3PaYh68H77waNI-Upi6EZFDV7fg&usqp=CAU" alt="1" title="Сложно">
+   </map></p>
+    <!--Вторая карта-->
+   <img src="https://clck.ru/y7gG4" height="100" usemap="#nav" alt="2">
+   <p><map id="nav" name="nav">
+   <area shape="circle" coords="50,50,50" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGZT6lFaEr3R8KP10q3NqOnTvxOPnuCcqcbw&usqp=CAU" alt="2" title="Слишком сложно">
+   </map></p>
+
+  </li>
+ 
+
+  <li> <a href="index.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+  <li><a href="about/about.html">Относительная ссылка на страницу в каталоге about</a></li>
+  <li><a href="about/about.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+  <li><a href="about/secondlvlcatalog/secondlvlpage.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a> </li>
+  <li><a href="second.html">Сокращенная ссылка на главную</a></li>
+  <li><a href="third.html">сокращенную ссылку на внутреннюю.</a> </li>
+</ol>
+     </div>
+
+     <div class="order-md-1 order-2">
+      <h1>Таблица</h1>
+      <table border="1" id="table">
+    <tr>
+      <th colspan="3">Сдвоенная ячейка</th>
+    </tr>
+
+    <tr>
+      <th class="tbl">Город</th>
+      <th>Время</th>
+      <th class="tbl">Дата</th>
+    </tr>
+    <tr>
+      <td>Краснодар</td>
+      <td class="tbl">19:00</td>
+      <td>26.09.2022</td>
+    </tr>
+      <tr>
+      <td class="tbl">Ростов</td>
+      <td>20:00</td>
+      <td class="tbl">27.09.2022</td>
+    </tr>
+        <tr>
+      <td>Питер</td>
+      <td class="tbl" >21:00</td>
+      <td>28.09.2022</td>
+    </tr>
+        <tr>
+      <td class="tbl" >Москва</td>
+      <td>22:00</td>
+      <td class="tbl">29.09.2022</td>
+    </tr>
+  </table>
+     </div>
+     <div class="form order-md-2 order-1">
+        <h1 id="form" align>Форма</h1>
+        <form>
+              <p><b>Имя:</b><input></p>
+              <p><b>Почта:</b><input type="email"></p>
+              <p><b>Дата рождения:</b><input type="date"></p>
+              <input type="radio" id="m" name="gender" color="">
+              <label for="m">М</label>
+              <input type="radio" id="f" name="gender">
+              <label for="f" color="#fc0">Ж</label>
+              <p><b>Количество конечностей</b></p>
+              <input type="radio" id="k" name="k">
+              <label for="k">0</label>
+              <input type="radio" id="1k" name="k">
+              <label for="1k">1</label>
+              <input type="radio" id="2k" name="k">
+              <label for="1k">2</label>
+              <input type="radio" id="3k" name="k">
+              <label for="1k">3</label>
+              <input type="radio" id="4k" name="k">
+              <label for="1k">4</label>
+              <input type="radio" id="5k" name="k">
+              <label for="1k">5</label>
+              <p><b>Сверхспособности:</b></p>
+              <select name="super[]" multiple="multiple">
+                    <option value="1">Бессмертие</option>
+                    <option value="2">Прохождение сквозь стены</option>
+                    <option value="3">Левитация</option>
+              </select>
+              <p>Введите биографию:</p>
+              <textarea>Биография</textarea>
+              <br>
+              <input type="checkbox" id="check">
+              <label for="check">С контактом ознакомлен</label>
+              <br>
+              <button type="submit">Отправить</button>
+        </form>
+     </div>
+  </div>
+     </div>
+ <div class="m-2">
+    <footer id="footer" align=center>4ard</footer>
+ </div>
+
+
+
+  </body>
+  </html>
